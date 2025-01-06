@@ -6,7 +6,7 @@ import os
 
 API_ID = os.getenv('API_ID')
 API_HASH = os.getenv('API_HASH')
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = os.getenv('TOKEN')
 
 bot = Client("moodle", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 data = {"moodle": "", "token": ""}
